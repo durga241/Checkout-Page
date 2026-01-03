@@ -27,4 +27,20 @@ A modern, responsive checkout page built with React, TypeScript, and Tailwind CS
    3.Start the development server
    npm run dev
    4.Open http://localhost:5173 to view it in your browser.
-   
+
+ ## 💰 Pricing Logic
+Base Pricing
+Ticket Cost: ₹1,000 per person
+Life Jacket: ₹100 per person (mandatory)
+GST: 18% on ticket cost only
+Calculation Formula
+Ticket Total = Number of Travelers × ₹1,000
+GST = (Ticket Total × 18) / 100
+Life Jacket Total = Number of Travelers × ₹100
+Subtotal = Ticket Total + GST + Life Jacket Total
+Final Amount = Subtotal - Discount (if any)
+Example Calculation (2 travelers with no discount)
+Ticket: 2 × ₹1,000 = ₹2,000
+GST: (₹2,000 × 18%) = ₹360
+Life Jackets: 2 × ₹100 = ₹200
+Total: ₹2,000 + ₹360 + ₹200 = ₹2,560
