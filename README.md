@@ -1,15 +1,6 @@
 # Checkout Page
 
 A modern, responsive checkout page built with React, TypeScript, and Tailwind CSS.
-
-## Technologies Used
-
-- ⚡ Vite - Next Generation Frontend Tooling
-- ⚛️ React 18 - A JavaScript library for building user interfaces
-- 💅 Tailwind CSS - A utility-first CSS framework
-- 📜 TypeScript - Type-safe JavaScript
-- 🎨 shadcn/ui - Beautifully designed components
-
 ## Getting Started
 
 ### Prerequisites
