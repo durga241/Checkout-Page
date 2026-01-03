@@ -27,12 +27,4 @@ A modern, responsive checkout page built with React, TypeScript, and Tailwind CS
    3.Start the development server
    npm run dev
    4.Open http://localhost:5173 to view it in your browser.
-   5. Project Structure
-   src/
-├── components/       # Reusable UI components
-│   └── checkout/     # Checkout page components
-│   └── ui/           # shadcn/ui components
-├── lib/             # Utility functions and configurations
-├── pages/           # Page components
-└── types/           # TypeScript type definitions
    
